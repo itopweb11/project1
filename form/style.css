@@ -1,0 +1,23 @@
+body {
+	background: #000;
+}
+
+
+.title {
+	color: red;
+	 text-align: center;
+}
+.form {
+	width: 500px;
+	padding: 20px;
+	margin: auto;
+	background-color: #fff;
+}
+.form-group {
+	margin-bottom: 15px;
+}
+.form-input {
+	padding: 5px;
+	border: 1px solid #000;
+	
+}
