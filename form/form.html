@@ -9,12 +9,15 @@
 	
 	
 	<div class="form" >
-		<a class="nav-link" href="../index.html">Главная</a>
+		<div class="form-fieldset">
+		<h4><a class="link" href="../index.html">Главная</a></h4>
 		<h1 class="title" >зарегистрироваться</h1>
 	    
 	    <form action="/" method="post" >
+			<h3>контактная информация</h3>
 	    	<div class="form-group" >
-	    	 <input class="form-input" type="text" name="name" placeholder="ваше имя">
+				<label for="input_name"> ваше имя </label>
+	    	 <input class="form-input" type="text" name="name" id="input_name" >
              </div>
 
              	<div class="form-group">
@@ -26,17 +29,39 @@
              <input class="form-input" type="tel" name="tel" placeholder="ваш телефон">
             </div>
 
-
+	</div>
 
                	<div class="form-group">
              <input class="form-input" type="password" name="password" placeholder="придумайте пароль">
             </div>
 
                	<div class="form-group">
-            <textarea name="text" placeholder="о вас" >
+            <textarea class="form-textarea" name="text" placeholder="  о вас" >
             	
             </textarea>
             </div>
+
+			<div class="form-group">
+				<select name="siti">
+                 <option>Дубай</option>
+					<option>Махачкала</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="male"> муж </label>
+				<input type="radio" id="male" name="choose_male" id="male">
+				<label for="male"> жен </label>
+				<input type="radio" id="male" name="choose_male" id="female">
+			</div>
+				<div class="form-group">
+				<input type="checkbox" id="rules_agree" >
+					<label for="rules_agree"> прочитал условия исогласен с ними</label>
+
+				</div>
+
+            <button class="btn" type="ubmit" > отправить</button>
+			<button class="btn" type="reset" > очистить </button>
+
 
 
 

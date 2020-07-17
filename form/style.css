@@ -6,6 +6,7 @@ body {
 .title {
 	color: red;
 	 text-align: center;
+	text-decoration: underline ;
 }
 .form {
 	width: 500px;
@@ -17,7 +18,40 @@ body {
 	margin-bottom: 15px;
 }
 .form-input {
+	display: block;
 	padding: 5px;
 	border: 1px solid #000;
+	font-family: Arial, sans-serif ;
+	font-size: 15px;
 	
+}
+.form-textarea {
+	width: 200px;
+	height: 150px;
+	padding: 5px;
+	border: 1px solid #000;
+	outline: 2px solid red;
+	font-family: Arial, sans-serif ;
+	font-size: 15px;
+}
+
+
+.link {
+	text-decoration: none;
+}
+.link:hover {
+	text-decoration: underline;
+}
+.btn {
+	padding: 5px 10px;
+	background-color: #43ac14;
+	color: #fff;
+}
+.btn:hover {
+	background-color: #3a9112;
+	cursor: pointer;
+}
+.form-fieldset {
+	padding: 20px;
+	border: 1.5px solid red;
 }
