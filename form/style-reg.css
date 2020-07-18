@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #121212;
+    background-color: #0d448e;
+}
+.link {
+    color: red;
+    border: 2px solid;
+}
+/*Auth*/
+.auth {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+.auth-title {
+    margin: 0 0 15px;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+/*Input*/
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input {
+    display: block;
+    padding: 8px 15px;
+    width: 260px ;
+    border: 1.5px solid #a50010;
+}
+/*Select*/
+.select {
+    display: block;
+    padding: 8px 15px;
+    width: 292px ;
+    border: 1.5px solid #a50010;
+}
+/*Btn*/
+.btn {
+    display: block;
+    width: 292px;
+    padding: 10px;
+
+    border: 0;
+    background-color: #18410a;
+
+    font-family: inherit;
+    font-size: 15px;
+    color: #fff;
+}
+.btn:hover {
+   background-color: #43ac14;
+    cursor: pointer;
+}
