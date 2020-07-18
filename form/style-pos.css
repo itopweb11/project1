@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #777171;
+
+}
+.composition {
+    width: 650px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+}
+.road {
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.car1 {
+    position: absolute;
+    right: -50px;
+    bottom: -75px;
+    z-index: 3;
+}
+
+.derevo {
+position: absolute;
+    right: -40px;
+    bottom: -140;
+    width: 250px;
+    height: 350px;
+    z-index: 2;
+
+}
+.oblako {
+    position: absolute;
+  top: -50px;
+    left: -20px;
+    z-index: 1;
+}
+.oblako2 {
+    position: absolute;
+    top: -50px;
+    left: 170px;
+    z-index: 1;
+}
