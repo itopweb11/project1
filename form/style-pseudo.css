@@ -1,0 +1,35 @@
+/* Pseudo */
+.pseudo-title {
+    margin: 0;
+    position:relative;
+    font-size: 30px;
+    text-align: center;
+
+}
+.pseudo-title:before {
+    content: "";
+    display: block;
+    width: 500px;
+    height: 3px;
+    margin-left: -250px;
+    background-color: #56c811;
+    position: absolute;
+    bottom: -5px;
+    left:50%;
+}
+
+.pseudo-title:after {
+    content: "";
+    display: block;
+    margin: 5px auto;
+    width: 500px;
+    height: 3px;
+    background-color: #0d448e;
+}
+.pseudo-text p:first-letter{
+    color: #a50010;
+    font-size:20px;
+}
+.pseudo-text p:first-line{
+    color: #a50010;
+}
