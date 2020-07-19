@@ -47,3 +47,19 @@ position: absolute;
     left: 170px;
     z-index: 1;
 }
+.element {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    padding:20px;
+    background-color: #0c0c0c;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px 10px #000000 inset,  20px 20px 30px 10px #000000;
+
+}
+.element-title {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px 10px #ec0d0d inset,  20px 20px 30px 10px #0049db;
+}
