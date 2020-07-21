@@ -7,10 +7,15 @@ body {
    background:url("img/p1.png");
 }
    .page {
-    	width: 800px;
+    	width: 1000px;
     	margin: 20px auto;
       background-color: #fff;
    }
+
+   .container {
+       display: flex;
+   }
+
    .header {
    	padding: 20px;
     background-color: #121212;
@@ -50,6 +55,7 @@ body {
    
    /*content*/
    .content {
+       width: 800px;
     padding: 20px;
    }
 
@@ -72,6 +78,12 @@ body {
     text-decoration: underline;
 
    }
+/*sidebar*/
+.sidebar {
+    width: 200px;
+}
+
+
 
    /*Article*/
 

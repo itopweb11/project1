@@ -6,11 +6,22 @@ body {
 	 color: #121212;
    background:url("img/p1.png");
 }
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
    .page {
-    	width: 800px;
+    	width: 1000px;
     	margin: 20px auto;
       background-color: #fff;
    }
+
+.container {
+    display: flex;
+}
+
    .header {
    	padding: 20px;
     background-color: #121212;
@@ -50,18 +61,19 @@ body {
    
    /*content*/
    .content {
-    padding: 20px;
+       width: 800px;
+    padding: 0 20px;
    }
 
    .content-title {
-    margin: 0 0 15px;
-    font-size: 24px;
-    color: red;
-
+       margin: 0 0 15px;
+       font-size: 24px;
+       color: red;
+   }
     .content-text {
       margin-bottom: 20px;
     }
-   }
+
    
     .red-more {
       color: 1d7abe;
@@ -72,6 +84,15 @@ body {
     text-decoration: underline;
 
    }
+ /*sidebar*/
+.sidebar {
+    width: 200px;
+    background-color: #a0a6ab;
+    padding: 10px;
+}
+.sidebar-title {
+    color: #ffffff;
+}
 
    /*Article*/
 

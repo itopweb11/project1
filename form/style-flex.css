@@ -1,0 +1,29 @@
+
+.page {
+    width: 600px;
+    margin: 20px auto;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: red;
+}
+.content {
+    display: flex;
+}
+.sidebar {
+    width: 20%;
+    padding: 10px;
+    background-color: #0049db;
+}
+.main {
+    width:60%;
+    padding: 20px;
+    background-color: #169d77;
+}
+.footer {
+    padding: 20px;
+    background-color: chartreuse ;
+}
