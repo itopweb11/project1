@@ -7,8 +7,11 @@ body {
     background-color: #0d448e;
 }
 .link {
-    color: red;
-    border: 2px solid;
+    color: #070707;
+
+}
+.link1 {
+    text-align: center;
 }
 /*Auth*/
 .auth {

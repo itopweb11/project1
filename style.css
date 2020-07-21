@@ -3,10 +3,20 @@ body {
 	 font-family: Arial, sans-serif;
 	 font-size: 15px;
 	 line-height: 1.5;
-	 color: #121212;
+	 color: #070707;
    background:url("img/p1.png");
 }
+.link a {
+    text-align: center;
+    color: #050505;
+}
+.link1  {
+    text-align  : center;
 
+}
+.link1 a {
+    color: #050505;
+}
 *,
 *:before,
 *:after {
@@ -50,8 +60,7 @@ body {
    .nav-link {
     display: inline-block;
     padding: 8px 12px;
-
-    color: #121212;
+    color: #050505;
     text-decoration: none;
    }
 

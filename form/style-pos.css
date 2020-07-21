@@ -3,6 +3,12 @@ body {
     background-color: #777171;
 
 }
+.link {
+    text-align: center;
+}
+.link a {
+   color: #121212;
+}
 .composition {
     width: 650px;
     height: 400px;

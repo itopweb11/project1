@@ -1,6 +1,12 @@
 body {
 	background: #000;
 }
+.link {
+	text-align: center;
+}
+.link a {
+	color: #121212;
+}
 
 
 .title {
@@ -38,6 +44,7 @@ body {
 
 .link {
 	text-decoration: none;
+
 }
 .link:hover {
 	text-decoration: underline;
