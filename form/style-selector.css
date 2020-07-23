@@ -1,0 +1,38 @@
+body {
+    margin:0;
+
+    font-family: Arial, sans-serif;
+    font-size:15px;
+    color: #121212;
+}
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px auto;
+}
+.text {
+    margin-bottom: 40px;
+}
+.text > p:last-of-type {
+    color: red;
+}
+.text span {
+    color: #00a4f1;
+}
+.text span[title] {
+    text-decoration:underline #a50010;
+}
+
+.list {
+    margin-bottom: 40px;
+}
+.list li:nth-child(odd) {
+    color:blue;
+}
+.table {
+    width: 100%;
+    margin-bottom:40px;
+}
+.table tbody tr:nth-child(odd) {
+    background-color: red;
+}
