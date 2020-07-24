@@ -180,3 +180,7 @@ body {
 .page-banner {
   text-align: center;
 }
+
+.video-size {
+    object-fit: cover;
+}
