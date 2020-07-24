@@ -71,7 +71,7 @@ body {
    /*content*/
    .content {
        width: 800px;
-    padding: 0 20px;
+    padding: 0px;
    }
 
    .content-title {

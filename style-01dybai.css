@@ -13,7 +13,7 @@ body {
     margin: 20px auto;
     padding: 7px;
 
-    background-color: #757070;
+    background-color: #bab4b4;
 }
 .nav-link  {
     color: #050505;
@@ -36,11 +36,17 @@ clear: both;
     width: 70%;
 
 }
+.text {
+    padding-left: 10px;
+}
 .sidebar {
     float: left;
     width: 30%;
-    background-color: #757939;
+    background-color: #8f99b3;
 
+}
+.footer1 {
+    padding: 10px;
 }
 .title {
     margin: 0 0 1rem;
