@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 1rem;
+    margin: 20px auto;
+
+    background-color: #eee;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-item {
+    height: 100px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.red {
+    background-color: #e03333;
+}
+.green {
+    background-color: #84b10d;
+}
+.blue {
+    background-color: #0049db;
+}
+>title {
+    margin: 0 0 1rem;
+
+    font-size: 2rem;
+    color: #e7b50a;
+}
+
+/*media*/
+@media (max-width: 800px) {
+    .container {
+        background-color: #706969;
+    }
+    .flex-item {
+        flex-basis: 100%;
+    }
+}
